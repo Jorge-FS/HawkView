@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
     w.show();
 
     QPixmap pixmap("/hawkview.png");
-         QSplashScreen splash(pixmap);
+         QSplashScreen splash(pixmap); /*!< brief Esta es la creacion del splash screen proveniente de QT */
          splash.show();
          a.thread()->sleep(2);
          a.processEvents();
